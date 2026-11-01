@@ -1,0 +1,23 @@
+# 构建产物
+build/
+*.app/
+*.dSYM/
+*.o
+*.icns
+*.iconset/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
