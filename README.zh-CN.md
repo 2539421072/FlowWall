@@ -6,6 +6,18 @@
 
 ![显示器面板](preview/displays.png)
 
+## 下载
+
+已编译好的 Intel 版本：[**v1.0.0 · macOS x86_64**](https://github.com/2539421072/FlowWall/releases/latest)（1.2 MB）。解压后把 `流光壁纸.app` 拖进「应用程序」即可。
+
+这个包是 ad-hoc 签名、未经公证，首次打开请右键 → 打开，或执行：
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/流光壁纸.app"
+```
+
+在 Apple Silicon 上会走 Rosetta 2 运行；想要原生 arm64 请自行从源码构建。
+
 ## 功能
 
 - **图片和视频混排**。支持 JPG / PNG / WEBP / HEIC / GIF 与 MP4 / MOV。可以拖入文件、拖入整个文件夹、拖动排序，双击某一行立即播放。

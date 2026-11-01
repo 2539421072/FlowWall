@@ -6,6 +6,18 @@ No Electron, no third-party dependencies. Pure Objective-C and AppKit, under 4,0
 
 ![Displays pane](preview/displays.png)
 
+## Download
+
+Prebuilt Intel build: [**v1.0.0 · macOS x86_64**](https://github.com/2539421072/FlowWall/releases/latest) (1.2 MB). Unzip, drag `流光壁纸.app` into Applications.
+
+The build is ad-hoc signed and not notarized, so the first launch needs right-click → Open, or:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/流光壁纸.app"
+```
+
+On Apple Silicon it runs under Rosetta 2; build from source for a native arm64 binary.
+
 ## Features
 
 - **Images and videos in one queue.** Mix JPG / PNG / WEBP / HEIC / GIF with MP4 / MOV. Drag files in, drag a whole folder in, or drag to reorder. Double-click any row to play it immediately.
